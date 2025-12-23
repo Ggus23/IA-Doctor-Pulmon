@@ -31,6 +31,7 @@ El modelo clasifica las imágenes en las siguientes categorías:
 - **Neumonía bacterial**
 
 ---
+---
 
 ## 🏗️ Arquitectura del Proyecto
 ├── app.py # Servidor Flask principal
