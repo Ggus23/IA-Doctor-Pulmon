@@ -31,22 +31,22 @@ El modelo clasifica las imágenes en las siguientes categorías:
 - **Neumonía bacterial**
 
 ---
----
-
 ## 🏗️ Arquitectura del Proyecto
-├── app.py # Servidor Flask principal
-├── asistente.py # Asistente de voz (Text-to-Speech)
-├── estado.py # Estado compartido de la predicción
+
+```text
+mi_asistente_medico-virtual/
+├── app.py                 # Servidor Flask principal
+├── asistente.py           # Asistente de voz (Text-to-Speech)
+├── estado.py              # Estado compartido de la predicción
 ├── models/
-│ └── Doctor_Pulmon.keras # Modelo entrenado (incluido)
+│   └── Doctor_Pulmon.keras # Modelo entrenado
 ├── templates/
-│ ├── index.html # Página principal
-│ └── result.html # Resultado del diagnóstico
+│   ├── index.html         # Página principal
+│   └── result.html       # Resultado del diagnóstico
 ├── static/
-│ └── uploaded_image.jpg # Imagen cargada en tiempo de ejecución
-├── requirements.txt # Dependencias del proyecto
+│   └── uploaded_image.jpg # Imagen cargada en tiempo de ejecución
+├── requirements.txt       # Dependencias del proyecto
 └── README.md
----
 
 ## ⚙️ Tecnologías Utilizadas
 
