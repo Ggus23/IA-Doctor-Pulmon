@@ -1,3 +1,4 @@
+```text
 # 🫁 Doctor Pulmon IA
 Sistema inteligente de apoyo al diagnóstico pulmonar mediante Deep Learning y asistencia por voz.
 
