@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Asistente Médico Pulmonar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Bootstrap (opcional para diseño moderno) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap @5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="hero">
+    <div class="content">
+        <h1>Asistente Médico Pulmonar</h1>
+        <p>Sube una imagen pulmonar (radiografía) y obtén un diagnóstico preliminar.</p>
+
+        <form action="/predict" method="POST" enctype="multipart/form-data" class="upload-form">
+            <input type="file" name="image" accept="image/*" required>
+            <button type="submit" class="btn-submit">Enviar Imagen</button>
+        </form>
+    </div>
+</div>
+
+<!-- Opcional: Script de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap @5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

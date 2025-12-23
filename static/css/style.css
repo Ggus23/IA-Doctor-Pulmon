@@ -1,0 +1,132 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8; /* Fondo claro y profesional */
+    color: #333; /* Texto oscuro legible */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff; /* Fondo blanco del contenedor */
+    border-radius: 12px; /* Bordes suaves */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: all 0.3s ease;
+}
+
+h1 {
+    color: #007bff; /* Azul médico */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    max-width: 400px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
+
+/* Imagen subida */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Mensaje de diagnóstico */
+.prediction {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #007bff;
+    font-weight: bold;
+    padding: 15px 20px;
+    background-color: #e9f0ff;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 30px;
+    border: 1px solid #d0e0ff;
+}
+
+/* Enlaces */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    input[type="file"],
+    button {
+        width: 100%;
+    }
+}

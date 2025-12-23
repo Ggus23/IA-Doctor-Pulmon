@@ -1,0 +1,58 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Paquetes/compilados comunes
+*.egg-info/
+dist/
+build/
+
+# ========================
+# Entornos virtuales
+# ========================
+venv/
+.venv/
+.env
+.env.local
+
+# ========================
+# Flask
+# ========================
+instance/
+.webassets-cache
+
+# ========================
+# Archivos generados (runtime)
+# ========================
+static/uploaded_image.jpg
+*.log
+
+# ========================
+# Tests / tooling (opcional)
+# ========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ========================
+# Sistema operativo
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDEs / Editores
+# ========================
+.vscode/
+.idea/
+*.swp
+
+# ========================
+# Jupyter
+# ========================
+.ipynb_checkpoints/

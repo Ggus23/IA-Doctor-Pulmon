@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>✅ Resultado del Análisis</h1>
+        <div class="prediction">Predicción: {{ prediction }}</div>
+        <img src="{{ url_for('static', filename=image_path) }}" alt="Imagen cargada">
+        <br>
+        <a href="/">« Volver</a>
+    </div>
+</body>
+</html>
