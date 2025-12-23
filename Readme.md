@@ -33,7 +33,6 @@ El modelo clasifica las imágenes en las siguientes categorías:
 ---
 
 ## 🏗️ Arquitectura del Proyecto
-
 ├── app.py # Servidor Flask principal
 ├── asistente.py # Asistente de voz (Text-to-Speech)
 ├── estado.py # Estado compartido de la predicción
@@ -46,10 +45,6 @@ El modelo clasifica las imágenes en las siguientes categorías:
 │ └── uploaded_image.jpg # Imagen cargada en tiempo de ejecución
 ├── requirements.txt # Dependencias del proyecto
 └── README.md
-
-yaml
-Copiar código
-
 ---
 
 ## ⚙️ Tecnologías Utilizadas
